@@ -14,5 +14,6 @@ public class UserModule {
     @Singleton
     User providesUser() {
         return new User("Lars", "Vogel");
+        
     }
 }
